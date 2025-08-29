@@ -1,0 +1,58 @@
+body {
+  background-color: lightgray;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+.projectoverview {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: lightgreen;
+  padding: 1rem;
+}
+.projectcard {
+  background-color: white;
+  max-width: 30%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 1rem;
+  align-content: center;
+}
+
+.projectcard img {
+  width: 20rem;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.projectcard button {
+  width: 100%;
+  background-color: #04aa6d;
+  border-radius: 5px;
+}
+
+.projectdetails {
+  padding: 2rem;
+  background-color: white;
+  margin: 2rem;
+  border-radius: 10px;
+}
